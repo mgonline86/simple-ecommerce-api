@@ -46,7 +46,13 @@ app.use((req, res, next) => {
 });
 
 /** Routes go here */
+// Welcome Routes
+app.get('/', (req, res, next) => {
+    res.status(200).send(`Welcome to Simple Ecommerce API 👋`)
+});
+// Users Routes
 app.use('/users', userRoutes);
+// Products Routes
 app.use('/products', productRoutes);
 
 /** Error handling */
