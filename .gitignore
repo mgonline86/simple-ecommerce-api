@@ -1,11 +1,11 @@
 # Keep environment variables out of version control
 **/node_modules/
-*/.env
+**/.env
 **/dist
 **/.git
 **/npm-debug.log
 **/.coverage
 **/.coverage.*
 **/.aws
-.dockerignore
-Dockerfile
+**/.dockerignore
+**/Dockerfile
