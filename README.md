@@ -36,8 +36,11 @@ This API uses the following:
 4. The following environmental variables are Optional as they have default values.
 
     `SERVER_HOSTNAME="localhost"`
+
     `SERVER_PORT=3000`
+
     `SERVER_TOKEN_EXPIRETIME=300`
+
     `SERVER_TOKEN_ISSUER="devIssuer"`
 
 5. Navigate to the `/src` folder, then run the prisma migrate command to connect to Database and Seed the Database with Dummy Data.
