@@ -31,7 +31,7 @@ This API uses the following:
 
     `DATABASE_URL="mysql://<username>:<password>@<host>:<port>/<database_name>"`
 
-    `SERVER_HOSTNAME="localhost"`
+    `SERVER_TOKEN_SECRET="superencryptedsecret"`
 
 4. The following environmental variables are Optional as they have default values.
 
